@@ -4,7 +4,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 const api = {
   key: '5af8921bf49793385e36060b781c0a78',
-  base: "http://api.openweathermap.org/data/2.5/",
+  base: "https://api.openweathermap.org/data/2.5/",
 }
 
 
