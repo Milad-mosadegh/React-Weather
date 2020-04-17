@@ -43,7 +43,7 @@ function App() {
           <input
             type="text"
             className="search-bar"
-            placeholder="Search ..."
+            placeholder="Search A City ..."
             onChange={e => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
@@ -64,6 +64,7 @@ function App() {
               <div className="weather">
                 {weather.weather[0].main}
               </div>
+
             </div>
           </div>
         ) : ("")}
